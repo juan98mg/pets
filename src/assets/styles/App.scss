@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+$spacer: 20px;
+$secundary: #464c8e;
+$third: #edf0f7;
+$danger: red;
+
+.input-element fieldset {
+  border: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.pr-2 {
+  padding-right: $spacer * 0.5;
+}
+
+.mr-2 {
+  margin-right: $spacer * 0.5;
+}
+
+.mt-2 {
+  margin-top: $spacer * 0.5 !important;
+}
+.mb-2 {
+  margin-bottom: $spacer * 0.5;
+}
+
+.center-items {
+  justify-content: center;
+  display: flex;
+}
+
+.background-pet {
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.bg-secundary {
+  background: $secundary !important;
+}
+
+.bg-danger {
+  background: red !important;
+}
+
+.fc-third {
+  color: $third !important;
+}
+
+.ff-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+.fs-Large {
+  font-size: large !important;
+}
+
+.btn-rounded-secundary {
+  @extend .bg-secundary, .fc-third, .border-30, .w-100, .fw-bold;
+}
+
+.btn-rounded-danger {
+  @extend .bg-danger, .fc-third, .border-30, .w-100, .fw-bold;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.border-30 {
+  border-radius: 30;
+}
