@@ -1,0 +1,10 @@
+export { default as CalcelButon } from "./CalcelButon";
+export { default as Checked } from "./Checked";
+export { default as Delete } from "./Delete";
+export { default as DesignThinking } from "./DesignThinking";
+export { default as Diskette } from "./Diskette";
+export { default as Dog } from "./Dog";
+export { default as Paws } from "./Paws";
+export { default as PetFriendly } from "./PetFriendly";
+export { default as PetCom } from "./PetCom";
+export { default as Tools } from "./Tools";
