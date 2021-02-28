@@ -3,17 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@svgr/cli": "^5.5.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
+    "firebase": "^7.24.0",
+    "firebase-tools": "^9.5.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "rxjs": "^6.6.6",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "svgr": "svgr -d src/assets/icons/tmp public/icons",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
